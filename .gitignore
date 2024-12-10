@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+
+# Django specific
+*.sqlite3
+/media/
+/staticfiles/
+/db.sqlite3
+
+# Secrets and configs
+.env
+.DS_Store
+
+# Docker
+*.log
+*.pid
+*.swp
+.mypy_cache/
